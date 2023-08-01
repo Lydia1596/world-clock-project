@@ -1,7 +1,57 @@
+body {
+  background: rgb(247, 247, 247);
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px dashed rgb(172, 168, 168);
+  padding: 20px 10px;
+}
+.city:last-child {
+  border: none;
+}
 .container {
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(166, 165, 165, 0.656) 0px 7px 29px 0px;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.date {
+  opacity: 0.8;
+  font-size: 18px;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 30px;
 }
 footer {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
+}
+#link {
+  color: black;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.time {
+  font-size: 40px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 18px;
+  line-height: 40px;
+  vertical-align: middle;
 }
