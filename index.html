@@ -11,26 +11,28 @@
   <body>
     <div class="container">
       <h1>World Clocks</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city</option>
-        <option value="madrid">Madrid 🇪🇸</option>
-        <option value="toronto">Toronto 🇨🇦</option>
-        <option value="sydney">Sydney 🇦🇺</option>
+        <option value="Europe/Madrid">Madrid 🇪🇸</option>
+        <option value="America/Toronto">Toronto 🇨🇦</option>
+        <option value="Australia/Sydney">Sydney 🇦🇺</option>
       </select>
-      <div class="city" id="madrid">
-        <div>
-          <h2>Madrid 🇪🇸</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="madrid">
+          <div>
+            <h2>Madrid 🇪🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="toronto">
-        <div>
-          <h2>Toronto 🇨🇦</h2>
-          <div class="date"></div>
+        <div class="city" id="toronto">
+          <div>
+            <h2>Toronto 🇨🇦</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
     <br />
