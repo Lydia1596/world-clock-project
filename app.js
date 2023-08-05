@@ -21,6 +21,17 @@ function updateTime() {
       .tz("America/Toronto")
       .format("HH:mm:ss [<small>]A[</small>]");
   }
+  let tokyoElement = document.querySelector("#tokyo");
+  if (tokyoElement) {
+    let tokyoDateElement = tokyoElement.querySelector(".date");
+    let tokyoTimeElement = tokyoElement.querySelector(".time");
+    tokyoDateElement.innerHTML = moment()
+      .tz("Asia/Tokyo")
+      .format("dddd Do MMMM YYYY");
+    tokyoTimeElement.innerHTML = moment()
+      .tz("Asia/Tokyo")
+      .format("HH:mm:ss [<small>]A[</small>]");
+  }
 }
 function updateCity(event) {
   let cityTimeZone = event.target.value;
