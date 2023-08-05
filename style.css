@@ -32,6 +32,9 @@ h2 {
   margin: 0 0 5px;
   font-size: 30px;
 }
+#homepage_link {
+  color: black;
+}
 footer {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
