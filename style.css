@@ -1,5 +1,6 @@
 body {
-  background: rgb(247, 247, 247);
+  background-color: rgb(247, 247, 247);
+  background-size: cover;
 }
 .city {
   display: flex;

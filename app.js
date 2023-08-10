@@ -41,6 +41,9 @@ function updateCity(event) {
   let cityName = cityTimeZone.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities");
+  document.getElementById(
+    "background-image"
+  ).style.backgroundImage = `url('${cityName}.jpg')`;
   citiesElement.innerHTML = `<div class="city">
   <div>
     <h2>${cityName}</h2>
